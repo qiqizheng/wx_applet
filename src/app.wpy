@@ -1,14 +1,9 @@
 <style lang="less">
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
+@import (css) './assets/style/app.wxss';
+.page{
+  background-color: #FFFFFF;
 }
 </style>
-
 <script>
 import wepy from '@wepy/core'
 import eventHub from './common/eventHub'
